@@ -1,12 +1,14 @@
 #nodeEditor{
-    position: relative;
+    // position: relative;
 
-    height: 50%;
+    height: 650px;
     width: 100%;
+    max-width: 550px;
+    margin: -100px auto 0;
  }
  
  .socket.number{
-     background: #96b38a
+     background: #00d2ff;
  }
  
  .control input {
