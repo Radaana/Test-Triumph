@@ -1,0 +1,20 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset = "utf-8")
+        meta(content="ie=edge" http-equiv="x-ua-compatible")
+        meta(name="viewport", content="initial-scale=1.0, width=device-width")
+
+        link(href="https://cdn.jsdelivr.net/npm/d3-node-editor@0.6.6/build/d3-node-editor.css" rel="stylesheet")
+        link(rel="stylesheet", href="css/style.min.css")
+        title Test-task
+    body
+        .maincontent
+            h1.header Button control
+            .container
+                button.my-button#my-button(type="button") Кнопка
+            .node-editor#nodeEditor
+        script(src="https://cdn.jsdelivr.net/npm/alight@0.14.0/alight.min.js")
+        script(src="https://cdn.jsdelivr.net/npm/d3@4.10.2/build/d3.min.js")
+        script(src="https://cdn.jsdelivr.net/npm/d3-node-editor@0.6.6/build/d3-node-editor.js")
+        script(src="js/script.min.js")
